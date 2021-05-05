@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:wght@500;700&family=Roboto:wght@300;400;700&display=swap');
+
+body {
+    font-family: "Roboto:400", sans-serif;
+    width: 100%;
+}
+
+.padding-img {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
