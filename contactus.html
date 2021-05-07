@@ -37,54 +37,104 @@
             </div>
         </nav>
     </section>
-    <section>
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d16306.88605794729!2d17.9991656!3d59.27682825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sse!4v1620249107038!5m2!1sen!2sse"
-            width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe> </section>
     <section class="container-fluid">
         <div class="row">
-            <div class="col-10 offset-1 col-lg-8 offset-lg-2">
-                <form>
+            <div class='col-10 offset-1 col-lg-8 offset-lg-2'>
+                <div id="map"></div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid ">
+        <div class="row">
+            <div class="col-10 offset-1 col-lg-8 offset-lg-2 ">
+                <form class="mt-8">
                     <div class="form-group">
                         <label for="exampleFormControlInput1">Email address</label>
                         <input type="email" class="form-control" id="exampleFormControlInput1"
                             placeholder="name@example.com">
                     </div>
                     <div class="form-group">
-                        <label for="exampleFormControlSelect1">Example select</label>
+                        <label for="exampleFormControlSelect1">Select the type of frame</label>
                         <select class="form-control" id="exampleFormControlSelect1">
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
+                            <option>Matalic</option>
+                            <option>Rubber</option>
+                            <option>Plastic</option>
                         </select>
                     </div>
                     <div class="form-group">
-                        <label for="exampleFormControlSelect2">Example multiple select</label>
-                        <select multiple class="form-control" id="exampleFormControlSelect2">
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
+                        <label for="exampleFormControlSelect1">Select the type of Glass</label>
+                        <select class="form-control" id="exampleFormControlSelect1">
+                            <option>Contact lens</option>
+                            <option>Laminated</option>
+                            <option>Custom Colored</option>
                         </select>
                     </div>
                     <div class="form-group">
-                        <label for="exampleFormControlTextarea1">Example textarea</label>
+                        <label for="exampleFormControlTextarea1">Please write to us if you have an amazing idea for
+                            Shades</label>
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                         <small id="passwordHelpBlock" class="form-text text-muted">
-                            Your password must be 8-20 characters long, contain letters and numbers, and must not
-                            contain
-                            spaces, special characters, or emoji.
+                            Please make sure to choose between the designs and types of Shades available on the site.
                         </small>
                     </div>
                 </form>
             </div>
         </div>
+        </div>
+        </div>
     </section>
-
-
+    <section>
+        <div class="container-fluid connect-container">
+            <div class="row text-center">
+                <div class="col-12">
+                    <h3 class="section-header">Connect with us</h3>
+                    <hr class="hr-green">
+                </div>
+            </div>
+            <div class="row text-center connect-us">
+                <div class="col-12 icons">
+                    <a href=" https://www.facebook.com/login/device-based/regular/login/?login_attempt=1"
+                        target="_blank">
+                        <i class="fab fa-facebook" aria-hidden="true"> </i>
+                        <span class="sr-only">Facebook</span>
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <i class="fab fa-instagram" aria-hidden="true"> </i>
+                        <span class="sr-only">Instagram</span>
+                    </a>
+                    <a href="https://twitter.com/?lang=sv" target="_blank">
+                        <i class=" fab fa-twitter" aria-hidden="true"> </i>
+                        <span class="sr-only">Twitter</span>
+                    </a>
+                    <a href="https://www.youtube.com/" target="_blank">
+                        <i class=" fab fa-youtube" aria-hidden="true"> </i>
+                        <span class="sr-only">Youtube</span>
+                    </a>
+                    <a href="https://www.google.com/intl/sv/gmail/about/#" target="_blank">
+                        <i class=" fab fa-google-plus-g" aria-hidden="true"> </i>
+                        <span class="sr-only">Gmail</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        function initMap() {
+            var map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 3,
+                center: {
+                    lat: 59.2745,
+                    lng: 18.0051
+                }
+            });
+        }
+    </script>
+    <script
+        src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
+    </script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCbwPUkgStj3ghfVu2ofe9v6piviscE8YI&callback=initMap">
+    </script>
 </body>
 
 </html>

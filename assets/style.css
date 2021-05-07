@@ -9,3 +9,43 @@ body {
     padding-left: 1rem;
     padding-right: 1rem;
 }
+
+div#map {
+    min-height: 360px;
+}
+
+.card-margin {
+    margin-right: 0.3rem;
+    margin-left: 3rem;
+    margin-top: 1rem;
+}
+
+.carousel .carousel-item {
+    height: 44rem;
+}
+
+.carousel-item img {
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    min-height: 44rem;
+}
+
+.connect-us {
+    margin: 2em 0em 2em 0em;
+}
+
+.section-header {
+    margin-top: 3rem;
+    font-weight: bold;
+    letter-spacing: 0.9rem;
+}
+
+.icons a {
+    font-size: 3.7em;
+    word-spacing: 1.3em;
+    text-decoration: none;
+    color: #17a2b8;
+
+}
