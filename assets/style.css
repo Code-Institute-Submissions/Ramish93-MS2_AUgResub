@@ -49,3 +49,7 @@ div#map {
     color: #17a2b8;
 
 }
+
+a {
+    cursor: pointer;
+}
