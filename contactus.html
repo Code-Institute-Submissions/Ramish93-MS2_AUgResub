@@ -14,6 +14,17 @@
     <link rel="stylesheet" href="assets/style.css">
 
     <title>Contact Us</title>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("user_1XbIDTznzZdyifFNxtKmZ");
+            emailjs.sendForm(default_service, template_pkpm2ad, {
+                name: araon,
+                subject: the project is
+            }, user_1XbIDTznzZdyifFNxtKmZ);
+        })();
+    </script>
 </head>
 
 <body>
@@ -76,6 +87,7 @@
                         <small id="passwordHelpBlock" class="form-text text-muted">
                             Please make sure to choose between the designs and types of Shades available on the site.
                         </small>
+                        <button type="submit" class="btn btn-primary">Send</button>
                     </div>
                 </form>
             </div>
