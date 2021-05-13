@@ -36,7 +36,9 @@
                 </ul>
             </div>
             <div style="position: relative">
-                <i class="fas fa-cart-arrow-down"></i>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#cartModal">
+                    <i class="fas fa-cart-arrow-down"></i>
+                </button>
             </div>
         </nav>
     </section>
@@ -135,6 +137,30 @@
         </div>
     </section>
 
+    <div class="modal" id="cartModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h5 class="modal-title">Cart</h5>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <div id="cart-products"></div>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <h3>Total: <span id="total">0</span></h3>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
 
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
@@ -192,22 +218,22 @@
             productsRow.innerHTML += `
           <div class="col-md-4">
             <div class="card border card-margin" style="width: 24rem">
-							<img
-								class="card-img-top"
-								style="height: 15rem"
-								src="${products[i].image}"
-								alt="Card image cap"
-							/>
-							<div class="card-body">
+                            <img
+                                class="card-img-top"
+                                style="height: 15rem"
+                                src="${products[i].image}"
+                                alt="Card image cap"
+                            />
+                            <div class="card-body">
                                 <h2>${products[i].name}</h2>
                                 <p class="card-text">${products[i].description}</p>
                                 <h5>Price: ${products[i].price} $</h5>
 
-							</div>
-							<div class="card-body">
-								<a onclick="addToCart(${i})" class="card-link">Add to Cart</a>
-							</div>
-						</div>
+                            </div>
+                            <div class="card-body">
+                                <a onclick="addToCart(${i})" class="card-link">Add to Cart</a>
+                            </div>
+                        </div>
           </div>
         `
         }
@@ -219,7 +245,7 @@
 
         let cartProducts = []
         let cartProductsBox = document.querySelector('#cart-products')
-        let totalText = document.querySelector('#total-text')
+        let totalText = document.querySelector('#total')
 
         function updateCart() {
             let total = 0
@@ -237,16 +263,6 @@
             totalText.innerHTML = total
         }
     </script>
-    <div>
-        <p>total: <span id="total-text">0</span></p>
-        <div id="cart-products"> </div>
-    </div>
-
-    <div class="modal-body">
-        <h5>Here are the porducts you selected.</h5>
-        <p>Proceed to <button class='btn btn-secondary'> Payment</button></p>
-
-    </div>
 </body>
 
 </html>
