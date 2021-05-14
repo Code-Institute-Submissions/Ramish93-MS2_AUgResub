@@ -1,3 +1,5 @@
+// map code snippet copied from google maps documentation, added custom locations,id.
+
 function initMap() {
     const map = new google.maps.Map(document.getElementById("map"), {
         zoom: 8,

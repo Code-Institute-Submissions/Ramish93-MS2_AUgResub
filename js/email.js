@@ -1,3 +1,5 @@
+ // email code snippet copied from emailJs.com documentation.
+
  $("#contact-form").submit(function (e) {
      e.preventDefault();
      emailjs.sendForm('service_l2rsbpu', 'template_pkpm2ad', '#contact-form')
