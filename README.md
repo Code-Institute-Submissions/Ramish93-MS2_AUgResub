@@ -1,4 +1,4 @@
- ![Image of website landing page](/imagesmd/website.png?raw=true "Title")
+ ![Test Image 1](/tests/screenshot2021-05-07at06.45.03.png)
 # Glass World MS2 project.
 ## project name and summry of concept
 * With increasing in small Bussinesses in the world and people getting aware of that small Bussinesses can grow rapidly i made this an e-commerse site made for costumers who would prefer to select and make their costum made glasses.
@@ -136,11 +136,7 @@ I wanted to make first-time user see what this website is about without reading 
 * google maps API was giving some troubles because it want loading the coordinated i assigned in it as it turns out i had restricted the API key. problem was solved by reading the documentation of googlemaps API.
 ---
 ### __Unfixed bugs__:
-* On mobile devises the cover-text container is not showing its full text. it is convaying the information it is intended to but the full text if not visible. I tried to fix it in many ways but everytime i ended up disfiguring some other part of that section. I will however, keep on trying to figure it out.
-* Social media icons are not responding at different screen widths as i want them to. They change size when viewed on xl-screen and on xs-screens but i would like them in medium size in medium screen size, which i was unable to figure out how to do. Pretty sure its my some silly mistake.
-* Website is on its full width on all devices provided by chrome-dev-tools but it came to my attention in last hour that its showing some side left-out space in iphone 11 and above. Since they are not provided by dev-tools so i didn't know about it earlier. here are the screenshots of both Iphone 12Pro Max and Samsung Note10+. Note 10 is 
-deploying website as intended but when we zoom out in Iphone 12ProMax it shows a side zoom. i added viewport size in head of my Html but it is not working. This shows the importance of checking website across different devices.
-* On Samsung Note 10 Plus:
+* By adding <Doctype html> the hero image is disalligned. i looked up for solution on web but unfortunately non of them worked on my code.
 
  ![Image of website on Samsung note 10 plus](/imagesmd/note10.jpeg?raw=true "Title")
 
@@ -154,17 +150,16 @@ deploying website as intended but when we zoom out in Iphone 12ProMax it shows a
 
 ---
 ### __Testing__:
-* Form and Modal are tested. If we press the submit button without putting any information in fields the response should be 'Please fill out this field'. it was checked acress different Android Mobiles and tablets and Apple Mobile and tablets.
-* All the links in across all three pages take the user to desired location and they open in another tab. They also get highlighted and underlined when hovered and they also have different colors than regular text to make user see them with ease.
+* Both API's are tested multiple times and they work as they should.
+* All the links in across all three pages take the user to desired location and they open in another tab.
 * The website is tested in __Android__: Samsung Note 3, Note 4, Galexy S8,S9 Moto 4G, Pixel 2 and 2XL, and __Apple__: Iphone 4,5,6,7,8 and X as well as Ipad and Ipad pro.
 
 * To ensure that the website is responsive across all pages i used. [Google Mobile Friendly Test](https://search.google.com/test/mobile-friendly?utm_source=gws&utm_medium=onebox&utm_campaign=suit). And the result is fully responsive.
 * Landing page,
  ![mobile friendly page 1](/imagesmd/pagevalidate1.png?raw=true "Title")
-* health page:
+* contact us page:
  ![mobile friendly page 2](/imagesmd/pagevalidate2.png?raw=true "Title")
-* Meetup page:
- ![mobile friendly page 3](/imagesmd/pagevalidate3.png?raw=true "Title")
+
  * For responsiveness across all devices the website [AmIResponsive](http://ami.responsivedesign.is/) is used. And result is.
   ![Amiresponsive result](/imagesmd/amiresponsive.png?raw=true "Title")
 
@@ -176,11 +171,8 @@ deploying website as intended but when we zoom out in Iphone 12ProMax it shows a
 - Landing Page:
  ![Wireframe of page 1](/wireframes/page1.png?raw=true "Title")
 
-- Healthy diet Page:
+- contact us Page:
  ![Wireframe of page 2](/wireframes/page2.png?raw=true "Title")
-
-- Meetup Page:
- ![Wireframe of page 3](/wireframes/page3.png?raw=true "Title")
 
 
 ___

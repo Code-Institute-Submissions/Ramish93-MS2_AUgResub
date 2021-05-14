@@ -34,14 +34,14 @@ let products = [{
         image: 'assets/imgs/hguaplb2gm0scqowbrffva4pk1lbaozv9pnu8hu0gvqobyanjwl0jvl4bpumymqy-.jpg',
         price: 35,
     }
-]
+];
 
-let productsRow = document.querySelector('#products-row')
+let productsRow = document.querySelector('#products-row');
 
 for (let i = 0; i < products.length; i++) {
     productsRow.innerHTML += `
           <div class="col-md-4">
-            <div class="card border card-margin" style="width: 22rem">
+            <div class="card border justify-content-center ipad" style="width: 100%">
                             <img
                                 class="card-img-top"
                                 style="height: 15rem"
@@ -59,30 +59,30 @@ for (let i = 0; i < products.length; i++) {
                             </div>
                         </div>
           </div>
-        `
+        `;
 }
 
 function addToCart(index) {
-    cartProducts.push(products[index])
-    updateCart()
+    cartProducts.push(products[index]);
+    updateCart();
 }
 
-let cartProducts = []
-let cartProductsBox = document.querySelector('#cart-products')
-let totalText = document.querySelector('#total')
+let cartProducts = [];
+let cartProductsBox = document.querySelector('#cart-products');
+let totalText = document.querySelector('#total');
 
 function updateCart() {
-    let total = 0
-    cartProductsBox.innerHTML = ''
+    let total = 0;
+    cartProductsBox.innerHTML = '';
     for (let i = 0; i < cartProducts.length; i++) {
         cartProductsBox.innerHTML += `
             <div>
               <h1>${cartProducts[i].name}</h1>
               <p>${cartProducts[i].price}</p>  
             </div>
-          `
-        total += cartProducts[i].price
+          `;
+        total += cartProducts[i].price;
     }
 
-    totalText.innerHTML = total
+    totalText.innerHTML = total;
 }

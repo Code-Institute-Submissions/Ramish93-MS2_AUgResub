@@ -35,4 +35,4 @@ const locations = [{
         lat: 59.1954,
         lng: 17.6257
     },
-]
+];
