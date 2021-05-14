@@ -1,8 +1,8 @@
- ![Test Image 1](/tests/screenshot2021-05-07at06.45.03.png)
+ ![Website](tests/Screenshot 2021-05-14 at 06.45.03.png)
 # Glass World MS2 project.
 ## project name and summry of concept
 * With increasing in small Bussinesses in the world and people getting aware of that small Bussinesses can grow rapidly i made this an e-commerse site made for costumers who would prefer to select and make their costum made glasses.
-## view live website [here.](https://ramish93.github.io/HealthyEarth/)
+## view live website [here.](https://ramish93.github.io/MS2/)
 ---
 ## Table of Content:
 - [Overview](#overview)
@@ -125,7 +125,6 @@ I wanted to make first-time user see what this website is about without reading 
 * [W3Schools](https://www.w3schools.com/) - used as a general resource.
 * [StackOverFlow](https://stackoverflow.com/) - used as a general resource for tips or questions.
 - [AmIResponsive](http://ami.responsivedesign.is/) - Used to check how the responsiveness of the website looks in different devices- available at the top of this [README](). 
-* [Google Mobile Friendly Test](https://search.google.com/test/mobile-friendly) - Used to test all pages on a mobile device
 ---
 ### __Bugs and fixes:__
 * My hero images were not responsive to i used following code to make them responsive.
@@ -138,15 +137,7 @@ I wanted to make first-time user see what this website is about without reading 
 ### __Unfixed bugs__:
 * By adding <Doctype html> the hero image is disalligned. i looked up for solution on web but unfortunately non of them worked on my code.
 
- ![Image of website on Samsung note 10 plus](/imagesmd/note10.jpeg?raw=true "Title")
-
-* On Iphone 12 Pro Max:
-
- ![Image of website on Iphone 12 Pro Max](/imagesmd/iphone12.jpeg?raw=true "Title")
-
  
-
-
 
 ---
 ### __Testing__:
@@ -169,7 +160,7 @@ I wanted to make first-time user see what this website is about without reading 
 ### Wireframes:
 *  Please click the link to download PDF: ![WireFreames](/wireframes/wireframe.pdf?raw=true "Title")
 - Landing Page:
- ![Wireframe of page 1](/wireframes/page1.png?raw=true "Title")
+ ![Wireframe of page 1](wireframes/page1.png?raw=true "Title")
 
 - contact us Page:
  ![Wireframe of page 2](/wireframes/page2.png?raw=true "Title")
@@ -186,7 +177,7 @@ ___
 * The code can be run locally by selecting "clone" which provides an URL you can use on your local computer or "download" option where one can download the zip file on your computer.
 
 To work on this project with local IDE like VScode etc:
-* Follow this link to [Healthy Earth Healthy Us!](https://ramish93.github.io/HealthyEarth/).
+* Follow this link to [Glass World!](https://ramish93.github.io/MS2/).
 * Under the Repo name choose "Clone or Download".
 * Copy URL in HTTP section.
 * In your Editor open the terminal and choose the folder you want to save this project in.
@@ -197,16 +188,14 @@ To work on this project with local IDE like VScode etc:
 ## Credits
 
 ### Content
-* The text for sections was inspired and edited from the website, [BBC.com plant based diet](https://www.bbc.com/news/science-environment-49238749),
-[University of Taxes Cancer Center](https://www.mdanderson.org/publications/focused-on-health/5-benefits-of-a-plant-based-diet.h20-1592991.html), [Gresy spoon cafe](https://www.greasyspoon.se/).
-
+* code for the some parts is copied form bootstrap, google maps API tutorials and emailJS code snippets. Most of the code is 
+written by me.
 ### Media
-* The photos in this website were downloaded from Pexels and Unsplash.
+* The photos in this website were downloaded from Pexels and google.
 
 ### Acknowledgements
 
-* The idea of this project was inspired because of growth in knowledge and responsibility of people to change the environment to help earth heal, to do something themselves with their own hands which will make them feel good
- and to make changes in their life style to live a healthy life. This plat-form is to give 
-them a push start and to persue people who already want this change to start it.
-* My Mentor, **Nishant Kumar**, for his guidance, help and advising me to understand what kind of design is better for user.
-* Tutor Support, for their efforts support, all the time and great atitude.
+* The idea of this project was inspired because of growth in small local bussiness and people wanting to make custom products for themselves in order to 
+feel exclusiveness adn full in control of what they are wearing.
+* My Mentor and friend, **Mubeen**, for his guidance, help and advising me to understand what kind of design is better for user.
+* Tutor Support was terrible specially mister **stephen** who choose to ignore a student who needed help. but not all the tutors i had good experience with other tutors aswell.
