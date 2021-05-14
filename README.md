@@ -1,4 +1,4 @@
- ![Website](tests/Screenshot 2021-05-14 at 06.45.03.png)
+ ![Website](tests/website.png)
 # Glass World MS2 project.
 ## project name and summry of concept
 * With increasing in small Bussinesses in the world and people getting aware of that small Bussinesses can grow rapidly i made this an e-commerse site made for costumers who would prefer to select and make their costum made glasses.
@@ -128,14 +128,14 @@ I wanted to make first-time user see what this website is about without reading 
 ---
 ### __Bugs and fixes:__
 * My hero images were not responsive to i used following code to make them responsive.
-
-  
-
 * EmailJS webiste was alot changed compared to titorials in CI, i tried to contact tutor support but instead of guiding me to right direction the tutor said that i don't seem serious and he is not going to help me. whole convo should be saved. Anyhow i integrated it in website but took me soo much time.
 * google maps API was giving some troubles because it want loading the coordinated i assigned in it as it turns out i had restricted the API key. problem was solved by reading the documentation of googlemaps API.
 ---
 ### __Unfixed bugs__:
 * By adding <Doctype html> the hero image is disalligned. i looked up for solution on web but unfortunately non of them worked on my code.
+ ![Error](tests/error.png)
+
+
 
  
 
@@ -147,23 +147,24 @@ I wanted to make first-time user see what this website is about without reading 
 
 * To ensure that the website is responsive across all pages i used. [Google Mobile Friendly Test](https://search.google.com/test/mobile-friendly?utm_source=gws&utm_medium=onebox&utm_campaign=suit). And the result is fully responsive.
 * Landing page,
- ![mobile friendly page 1](/imagesmd/pagevalidate1.png?raw=true "Title")
+ ![mobile friendly page 1](tests/mobilefriendly1.png)
+
 * contact us page:
- ![mobile friendly page 2](/imagesmd/pagevalidate2.png?raw=true "Title")
+ ![mobile friendly page 2](tests/mobilefriendly2.png)
 
  * For responsiveness across all devices the website [AmIResponsive](http://ami.responsivedesign.is/) is used. And result is.
-  ![Amiresponsive result](/imagesmd/amiresponsive.png?raw=true "Title")
+  ![Amiresponsive result](tests/amiresponsive.png)
 
 * For Html validation W3 Validator was used, click link to see result. [W3 Html validator](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-dd61392f-e80b-4db4-a829-cf89f148345b.ws-eu03.gitpod.io%2Findex.html).
 * Css validator was used to validate css, click link to see result. [W3 Css validator](https://jigsaw.w3.org/css-validator/validator)
+* and for Javascript, Javascript validator is used [W3 javaScript validator](https://beautifytools.com/javascript-validator.php)
+  ![JS page one](tests/jsmain.png)
+  ![Js page googlemaps result](tests/jsmap.png)
+  ![Js emailJs result](tests/jscontact.png)
 
 ### Wireframes:
-*  Please click the link to download PDF: ![WireFreames](/wireframes/wireframe.pdf?raw=true "Title")
 - Landing Page:
- ![Wireframe of page 1](wireframes/page1.png?raw=true "Title")
-
-- contact us Page:
- ![Wireframe of page 2](/wireframes/page2.png?raw=true "Title")
+ ![Wireframe of pages](wireframe/wireframe.png)
 
 
 ___
