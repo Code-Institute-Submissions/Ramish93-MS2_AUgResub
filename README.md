@@ -40,86 +40,82 @@ This website would be great in acheiving these goals mentioned above because:
 
 * It would provide a platform for participants to put out their amazing ideas in the product which will in return allow the bussiness to grow by knowing what customer want and what is they feel most confortable in.
 * Helping out 
-* participants will be motivated to make dietary changes in their daily life-style and they would be given new inovative recepies that other participants have tried to make this coversion easy and smooth in order to mantain a healthy life style.
-* Along with advantage of a clean neighborhood and self-confidenace this cleaning will provide as an exercise including walking and carring weight which would be part of a healthy life-style.
-* As mentioned earlier that donating money while siting at home isn't sufficiant to provide confidence and heppiness that we are helping our community, On the other hand participating in such activities would help participants achive that feeling at it's full potential.
+* participants will be motivated to make thier own product and make design and style choices themselves which will in return give them a felling of exclusiveness.
+* Along with advantage of promoting shades culture this website will promote custom made shades which is something not offered in current bussiness models.
+* As mentioned earlier that the idea of custom made glasses will give customer a feeling of exclusiveness and full control over design which will in return increase confidenace in customer.
 
 #### Developement and Bussiness goals:
-* A website created to motivated people to help change world and themselves.
-* A website created with HTML5, CSS3 and bootstrap framework which is exciting and motivating to look at.
+* A website created to motivated people to promote shades culture.
+* A website created with HTML5, CSS3, bootstrap framework, interactivity of Javascript, jQuery libery, API servises which is exciting and motivating to look at.
 * I am as a developer happy and excited to make it a part of my work port-folio.
-* In future seeing the popularity of this project i can think of turning it into an organiztion that targets people from all around the world making these changes in their lifes.
+* In future seeing the popularity of this project i can think of turning it into an company that targets people from all around the world of all ages and make custom made product of all sorts not just glasses. This custom made design product culture will, i think, increase and excite the customers.
 
 #### User Stories:
 1. As a person looking to make a difference in myself and world i would want to see what is this site for which i would easily find and understand by hero image and clear information presented on front page.
-2. I would like to have intuative navigation so i can surf the website easily so my website is easy to navigate with a nav-bar at top right and with clear discription of where it takes user.
-3. As a new user i would like to have all the necessary information infront of me so i don't waste my time looking for what i don't need so the Website has all necessity information on front page.
-4. When is see and like the webiste and it's purpose i would like to start so for that there would be a campaign for new year cleaning so the user starts with it and be part of a big team.
-5. I would like to have options to sign-up either when i'm on first page reading information or on last page reading about meet-ups. To join the group there are two sign up buttons 1. on top of page on all screen sizes and one on the third page of website with the meet-ups information.
-6. I would like to sign-up quick so to make the process easy the top-right button of sign up is a modal form bootstrap so there is a pop-up window that easily sign-up user.
-7. The goal of website is to make user participate in the good work so With the intuative design and easy sign-up user would feel great after signing up and taking part in a campaign as New Years Resolution.
-8. I would like to contact who made the Website and took the initiative for that there would be a contact us information in footer.
+2. I would like to have intuative navigation on webpage so i can surf the website easily so my website is easy to navigate with a nav-bar at top left and with clear discription of everything where it takes user.
+3. As a new user i would like to have all the necessary information infront of me so i don't waste my time looking around for what i need so the website has all necessity information on front page and additional information on the second page.
+4. When user see and like the webiste and it's purpose i would like them to book a product and if they are not satisfied and they go on second page they will fine an easy to fill form of idea and material of shades they want.
+5. I would like to have options to send ideas of look into our store on second page reading about custom made shades and info about our store. 
+6. I would like to either add a product to cart or give my idea to the company so they can start working on product or give me more intuative suggestions.
+7. The goal of website is to make user participate in the work so With the intuative design and easy custom made form user would feel great after sending info and taking part in design of their own shades as per their needs.
 
 ### **Scope**:
 This website incorporates an MVP (Minimal VIable Product) method which I considered a good idea for the following reasons:
-* It brings the basic layout of the website and grants awareness to user how the website is going to look like.
+* It brings the basic layout of the website and gives awareness to customer how the website is going to look like.
 * It gives me an opportunity to see my design take a beautiful shape and improve it where necessary.
-* Includes relevent and defining imagery and icons to make webpage look more exciting and fullfilling.
-* Testimonials of participents to boost the confidence of first time user and to give them confidence to be a part of the change.
-* Relevent FAQ's so that first time or a permenant user can find any answers they are looking for which is a part of intuative website.
-* Social media icons so that user can see and follow our work immediately.
-* Contact information and meet-ups so user feels confertable in talking and bringing any ideas forward that they would like to work on.
+* Includes relevent and defining images and descriptions to make webpage look more exciting and fullfilling.
+* Idea form for user will give them full control over style of their product per their need.
+* Social media icons so that user can see and follow our work immediately and google maps API to see out store location if they are in stockholm.
 ### **Structure**:
-I designed this website in three pages with same navigation, connect with us and footer section to show consistancy to user and so that they can move around and find signup and contact information not matter which page they are on.
-All pages have difference hero image that fits perfectly with the purpose of the page. and use of icon and images enhance user experience. All pages are have different theme and user will know the theme of specific page just by looing at the hero image. In addition to that they have a cover-text that inspires them to
-take part in NEW YEAR CLEAN-UP as first activity to give them a boost and make them feel good about themselves to start the new year with a fullfilling experience.
+I designed this website in two pages with same navigation, contact us section to show consistancy to user and so that they can move around and find custom made form and contact information easily.
+Both pages have relevent functionality to help user navigate the website easily. and use of API and images enhance user experience. Both pages are have different theme and user will know the theme of specific page just by looking at the page in addition to that they have a contact us form with input fields so they can tell us what they want and what they want to be design of their product.
 ### **Skeleton**:
-The website is divided into three pages first with information about the problems of dirt and garbage around in our environment and how we propose to fix it. Second with dietary changes we need to do inorder to lead a strong healthy life. and third with information about our meetups and what we do in groups. i added some more content to second page as it was looking a littel small. The Wireframes are representation of project's final look.
+The website is divided into two pages first with information about the product and how we propose the product to look like. Second page with API integration so customer can find our store or write to us easily without too much hassle.
 ### **Surface**:
-I wanted to make first-time user see what this website is about without reading content and i achived it by using relevent imagery to each single page to let user feel the problem and need to do something about it. The use of colors was decided inorder with the color of earth's green forest which was to remind user that this is how our environment is supposed to look like.
+I wanted to make first-time user see what this website is about without reading content and i achived it by using relevent images to first single page to let user see the product and decide if they want to buy it. The use of colors was decided inorder with the color summer light color which was to remind user that this is a product they will need in near future.
 #### Images:
-* The images are selected very carefully with relevence to each page and indivisual section providing a feeling of confidenace and excitement to user.
+* The images are selected very carefully with relevence to first page and indivisual section providing a feeling of confidenace and excitement to user.
 #### Typography:
-* I used Google Fonts to explore different fonts I could use with my website and decided on "Alegreya, Roboto" and "Serif" as the back-up font. Alegreya and Roboto were my choice because of its popular use and modern look and feel.
+* I used Google Fonts to see different fonts I could use with my website and decided on "Alegreya, Roboto" and "Serif" as the back-up font. Alegreya and Roboto were my choice because of its often use and modern look.
 ### **Features**:
  __Navbar:__ 
- * Navbar is created in dark green color (#188832) and nav-links with white to give a clear view to user. Navbar is not fixed to let user explore the full height of website and not getting diturbed by fixed stuck navbar.
+ * Navbar is created in dark green color (#17a2b8) and nav-links with black to give a clear view to user. Navbar is not fixed to let user see the full height of website and not getting distracted by fixed stuck navbar.
 
  __Home Page:__ 
- * Home page has a hero image that gives a full idea to user what this website is about and with full name of website which is self-discriptive and our goal in jumbotron gives a full sence to user. I've added a cover-text on all pages to inspire user to initiate this great work by participating in new year clean-up when most of the areas around the city will be dirty because of new-years celebration.Then 
- i have feedback section from amazing participants. After that a section with FAQ's and relevent images and then connect with us with social media responsive icons and at last the footer with contact and meetup information.
+ * Home page has 4 hero images in bootstrap carasol that gives a full idea to user what this website is about and with full name of website which is quiet self-discriptive and my goal in carasol gives a full experience to user. 
+ then i have second page for amazing customers. in this section i have integrated two API's for user to see the full extent of website.
 
- __Healthy diet page:__
- * In second page i use almost same layout to give consistancy to user and more make them clustered with entirely different dynamics of new page. i used three columns to create awareness about healthy diet and then images containers to show some amazing vegetarian receipes.
- __Meet-up page:__
- * In this last page i added handy link to a cafe where we meet and what we do in meet-ups. 
- * In Footer page i also added link to the care with timings so that its easy for user to navitage the website.
+ __contact us:__
+ * In second page i use almost same layout to give consistancy to user and more make them clustered with all different design of new page. i used two section which are very seprate and give user a full awareness of the idea of website.
+  
  ### __Features Left to Implement__:
- * I would love to add a validity to the signup form, but it was not in scope of this MS project.
- * I would love to expand the website world wide but with the limited time for MS1 project its only for stockholm now.
+ * I would love to add a payment method for user to add their details and add local or browser storage to save the choices customer made first time  but with the limited time and skills taught for MS2 project its only with functionality shown above.
+ * I would love to expand the products not just glasses.
 ### Design Choices:
-* __Font:__ The font family Roboto was chosen for this project because is has good readability and its very popular and 
- second font is Alegreya because it looks beautiful and appealing.
- * __Images:__ Images choser for the landing page shows a beautiful beach with some garbage in it to show that the beauty 
- of beach is affected by garbage and it our responsibility to clean it.
- * picture for Healhty diet page has asparagus in it which is a very healthy and loved vegtable. So it will be appealing to people 
- to convert to plant-based diet.
- * picture for meet-up page is a group of people enjoying coffee and having a conversation to show that is exactly how we intend to do 
- out meet-ups.
- * __Color:__ Color for the website is green which is the color of Mother-earth. To inspire user that this is how earth is supposed to be, Clean and green.
- * color used for links is green so that user can differentiate between text and links.
- * __Layout:__ The website in medium screen is not centered i made this design choice because centered view for medium screen is out-dated and boring. So i choose to have two columns side by side in each container and the third column under them in middle. Which , i think, gives it more aesthatic beauty.
+* __Font:__ The font family Roboto was chosen for this project because is has reliable readability and its very popular and 
+ second font is Alegreya because it looks beautiful and modern and is popular.
+ * __Images:__ Images choser for the landing page shows a beautiful beach with shades on sand to show that we need this product when we think of summer.
+ * API's integrated are relevent to website as we have shops in stockholm and we can ship custom shades worldwide gives customer for flexibility.
+ * __Color:__ Color for the website is green which is the color of summer, light and blue. To inspire user to book the product.
+ * color used for links is same so that user can differentiate between text and links.
+ * __Layout:__ The website in medium screen is centered i made this design choice because centered view for medium screen is appealing and modern. So i choose to have three columns side by side in each container.  Which , i think, gives it more aesthatic beauty.
 
 
 ### __Technologies Used__:
 #### Languages:
 - [HTML](https://en.wikipedia.org/wiki/HTML)
 - [CSS](https://en.wikipedia.org/wiki/CSS)
+- [Javascript](https://en.wikipedia.org/wiki/avascript)
+- [jQuery](https://en.wikipedia.org/wiki/jQuery)
+- [API](https://en.wikipedia.org/wiki/API)
+
 #### Libraries used:
 * Bootstrap 4.5 - A mobile-first responsive library used to construct various parts of the project, including the Navbar, Modal Forms, Media and Cards.
 * GoogleFonts - Alegreya and Serif,Sans-Serif fonts
 * FontAwesome - Used frequently for icons used throughout the website
-* Balsamiq - used for the creation of wireframes
+* jQuery - for easy use of Javascript.
+* Google maps API to show user our stores and find them easily.
+* EmailJs.com API - to let user contact us 
 #### Version Control:
 - [Github](https://github.com/) - Used to store the code and use of Github Pages to deploy the website. 
 - [Gitpod](https://gitpod.io/) - Used as the version control IDE for writing code and to further commit and push code to Gihub.
@@ -130,29 +126,14 @@ I wanted to make first-time user see what this website is about without reading 
 * [StackOverFlow](https://stackoverflow.com/) - used as a general resource for tips or questions.
 - [AmIResponsive](http://ami.responsivedesign.is/) - Used to check how the responsiveness of the website looks in different devices- available at the top of this [README](). 
 * [Google Mobile Friendly Test](https://search.google.com/test/mobile-friendly) - Used to test all pages on a mobile device
-- [Youtube](https://www.youtube.com/) - Used for help in adding a favicon.
-- [BBC.com plant based diet](https://www.bbc.com/news/science-environment-49238749) - Used for help adding content for plant based diet.
-* [University of Taxes Cancer Center](https://www.mdanderson.org/publications/focused-on-health/5-benefits-of-a-plant-based-diet.h20-1592991.html) - Used for help adding content Healthy and strong lifestyle.
-* [Gresy spoon cafe](https://www.greasyspoon.se/) - Used for help adding content and location of where we do meet-ups.
 ---
 ### __Bugs and fixes:__
-* My hero image was too bright and the text wasn't clear. i was using opacity on image and then is used linear-gradient technology as follow: 
+* My hero images were not responsive to i used following code to make them responsive.
 
-  __background:linear-gradient(
-      rgba(0, 0, 0, 0.1),
-      rgba(0, 0, 0, 0.1)
-    ),
-    url("images/cleanearth.jpeg") no-repeat;
-    background-position: center;
-    overflow: hidden;__
+  
 
-and the image became dark as i wanted it to be.
-* My Importance section and Feedback sections were merging into each other in mobile view but on desktop they were as i wanted them to be. I searched online on youtube, StackOverFlow and W3School i checked my Css file 
-to fix the bug. The videos and StackOverFlow helped me figure out the problem which was that i gave Importance Container a fixed height which was causing the merging of content.
-* My cover-text was mixing with the heading and text of jumbotron in some mobile views and ipad view i added media quries to fix it but its still not fixed in a few mobile views.
-* In mobile view my Importance section was centered aligned with alot of padding on right side which was not something i liked so i add no-gutters class and changed the col-10 offset-1 in small screen view to col-12.
-* On the meet-up page the hero image took some time to load which was because of the size of the image was too large and causing this delay. The filesize of the downloaded image was over 3900kb so I changed for another image.
-* My form was not validating. upon clicking submit button nothing was happening despite of giving it required attribute. upon checking online on [code acadmey form submit](https://www.codecademy.com/courses/learn-html/lessons/html-form-validation/exercises/required) it was my silly mistake of not adding type="submit" to my button.
+* EmailJS webiste was alot changed compared to titorials in CI, i tried to contact tutor support but instead of guiding me to right direction the tutor said that i don't seem serious and he is not going to help me. whole convo should be saved. Anyhow i integrated it in website but took me soo much time.
+* google maps API was giving some troubles because it want loading the coordinated i assigned in it as it turns out i had restricted the API key. problem was solved by reading the documentation of googlemaps API.
 ---
 ### __Unfixed bugs__:
 * On mobile devises the cover-text container is not showing its full text. it is convaying the information it is intended to but the full text if not visible. I tried to fix it in many ways but everytime i ended up disfiguring some other part of that section. I will however, keep on trying to figure it out.
