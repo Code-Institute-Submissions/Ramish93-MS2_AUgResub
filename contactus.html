@@ -18,8 +18,7 @@
     <link rel="stylesheet" href="assets/style.css">
 
     <title>Contact Us</title>
-    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
-        integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <!-- code for email.js website, rest of funciton is in contactus.js file -->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
     </script>
     <script type="text/javascript">
@@ -32,7 +31,7 @@
 
 <body>
     <section>
-        <!--modal copied from bootstrap, added custom text area,id and classes-->
+        <!--modal from bootstrap, added custom text area,id and classes-->
 
         <nav class="navbar navbar-expand-lg navbar-light bg-info">
             <a class="navbar-brand" href="index.html">Glass World</a>
@@ -60,7 +59,7 @@
             </div>
         </div>
     </section>
-    <!--form copied from bootstrap, added custom inputs,id and classes-->
+    <!--form bootstrap, added custom inputs,id and classes-->
 
     <section class="container-fluid ">
         <div class="row">
@@ -69,11 +68,11 @@
                     <div class="form-group">
                         <label for="exampleFormControlInput1">Email address</label>
                         <input type="email" class="form-control" id="exampleFormControlInput1" name="user_email"
-                            placeholder="name@example.com">
+                            placeholder="name@example.com" required>
                     </div>
                     <div class="form-group">
                         <label for="exampleFormControlSelect1">Select the type of frame</label>
-                        <select class="form-control" id="exampleFormControlSelect1" name="user_frame">
+                        <select class="form-control" id="exampleFormControlSelect1" name="user_frame" required>
                             <option>Matalic</option>
                             <option>Rubber</option>
                             <option>Plastic</option>
@@ -81,7 +80,7 @@
                     </div>
                     <div class="form-group">
                         <label for="exampleFormControlSelect1">Select the type of Glass</label>
-                        <select class="form-control" id="exampleFormControlSelect1" name="user_glasses">
+                        <select class="form-control" id="exampleFormControlSelect1" name="user_glasses" required>
                             <option>Contact lens</option>
                             <option>Laminated</option>
                             <option>Custom Colored</option>
@@ -90,8 +89,8 @@
                     <div class="form-group">
                         <label for="exampleFormControlTextarea1">Please write to us if you have an amazing idea for
                             Shades</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
-                            name="user_idea"></textarea>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="user_idea"
+                            required></textarea>
                         <small id="passwordHelpBlock" class="form-text text-muted">
                             Please make sure to choose between the designs and types of Shades available on the site.
                         </small>
@@ -99,8 +98,6 @@
                     </div>
                 </form>
             </div>
-        </div>
-        </div>
         </div>
     </section>
     <section>
