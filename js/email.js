@@ -1,4 +1,4 @@
- // email code snippet copied from emailJs.com documentation.
+ // email code snippet from emailJs.com documentation.
 
  $("#contact-form").submit(function (e) {
      e.preventDefault();

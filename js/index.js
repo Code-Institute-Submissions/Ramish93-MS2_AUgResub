@@ -1,3 +1,4 @@
+// details of the products that will render on webpage
 let products = [{
         name: 'Sun Brown',
         description: 'Beautiful Sun-brown sunglasses for an elegent summer',
@@ -35,11 +36,13 @@ let products = [{
         price: 35,
     }
 ];
+
+// variable defined for local browser storage and html page
 let cartProducts = JSON.parse(localStorage.getItem("cartProduct")) || [];
-
-
 let productsRow = document.querySelector('#products-row');
 
+
+// for loop to render the products on webpage
 for (let i = 0; i < products.length; i++) {
     productsRow.innerHTML += `
       <div class="col-md-4">
@@ -64,6 +67,7 @@ for (let i = 0; i < products.length; i++) {
     `;
 }
 
+// add to cart function to add products to cart// with a text shown for two seconds so user has responce 
 function addToCart(e, index) {
     e.innerHTML = "You're product is added"
     setTimeout(function () {
@@ -73,25 +77,9 @@ function addToCart(e, index) {
     localStorage.setItem("cartProduct", JSON.stringify(cartProducts));
     console.log("localStorage" + JSON.parse(localStorage.getItem("cartProduct")));
     updateCart();
-
 }
 
-// function saveAddtoCartToLocalStorage(index) {
-//     let items = localStorage.getItem('items')
-//     // storing json data
-//     if (items) {
-//         JSON.parse(items)
-//     } else {
-//         items = []
-//     }
-
-
-//     items.push(index)
-
-
-//     localStorage.setItem('items', JSON.stringify(items))
-// }
-
+// variables for products that will show in cart when selected
 let cartProductsBox = document.querySelector('#cart-products');
 let totalText = document.querySelector('#total');
 
@@ -114,12 +102,13 @@ function updateCart() {
     totalText.innerHTML = total;
 }
 
+// function to clear the data in cart via clear button
 function clearCart() {
     localStorage.clear();
     updateCart();
-
 }
 
+// update cart function to invoke at start/refresh of page so the products stay in cart
 document.addEventListener("DOMContentLoaded", function (event) {
     updateCart();
 });
