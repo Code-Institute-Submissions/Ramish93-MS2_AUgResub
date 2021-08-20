@@ -35,54 +35,91 @@ let products = [{
         price: 35,
     }
 ];
+let cartProducts = JSON.parse(localStorage.getItem("cartProduct")) || [];
+
 
 let productsRow = document.querySelector('#products-row');
 
 for (let i = 0; i < products.length; i++) {
     productsRow.innerHTML += `
-          <div class="col-md-4">
-            <div class="card border justify-content-center ipad" style="width: 100%">
-                            <img
-                                class="card-img-top"
-                                style="height: 15rem"
-                                src="${products[i].image}"
-                                alt="Card image cap"
-                            />
-                            <div class="card-body">
-                                <h2>${products[i].name}</h2>
-                                <p class="card-text">${products[i].description}</p>
-                                <h5>Price: ${products[i].price} $</h5>
+      <div class="col-md-4">
+        <div class="card border justify-content-center ipad" style="width: 100%">
+                        <img
+                            class="card-img-top"
+                            style="height: 15rem"
+                            src="${products[i].image}"
+                            alt="Card image cap"
+                        />
+                        <div class="card-body">
+                            <h2>${products[i].name}</h2>
+                            <p class="card-text">${products[i].description}</p>
+                            <h5>Price: ${products[i].price} $</h5>
 
-                            </div>
-                            <div class="card-body">
-                                <a onclick="addToCart(${i})" class="card-link">Add to Cart</a>
-                            </div>
                         </div>
-          </div>
-        `;
+                        <div class="card-body">
+                            <a onclick="addToCart(this, ${i})" class="card-link">Add to Cart</a>
+                        </div>
+                    </div>
+      </div>
+    `;
 }
 
-function addToCart(index) {
+function addToCart(e, index) {
+    e.innerHTML = "You're product is added"
+    setTimeout(function () {
+        e.innerHTML = "Add to Cart"
+    }, 2000)
     cartProducts.push(products[index]);
+    localStorage.setItem("cartProduct", JSON.stringify(cartProducts));
+    console.log("localStorage" + JSON.parse(localStorage.getItem("cartProduct")));
     updateCart();
+
 }
 
-let cartProducts = [];
+// function saveAddtoCartToLocalStorage(index) {
+//     let items = localStorage.getItem('items')
+//     // storing json data
+//     if (items) {
+//         JSON.parse(items)
+//     } else {
+//         items = []
+//     }
+
+
+//     items.push(index)
+
+
+//     localStorage.setItem('items', JSON.stringify(items))
+// }
+
 let cartProductsBox = document.querySelector('#cart-products');
 let totalText = document.querySelector('#total');
 
 function updateCart() {
+    let cartProductLS = JSON.parse(localStorage.getItem("cartProduct"));
     let total = 0;
     cartProductsBox.innerHTML = '';
-    for (let i = 0; i < cartProducts.length; i++) {
-        cartProductsBox.innerHTML += `
-            <div>
-              <h1>${cartProducts[i].name}</h1>
-              <p>${cartProducts[i].price}</p>  
-            </div>
-          `;
-        total += cartProducts[i].price;
+    if (cartProductLS) {
+        for (let i = 0; i < cartProductLS.length; i++) {
+            cartProductsBox.innerHTML += `
+        <div>
+          <h1>${cartProductLS[i].name}</h1>
+          <p>${cartProductLS[i].price}</p>
+        </div>
+      `;
+            total += cartProductLS[i].price;
+        }
     }
 
     totalText.innerHTML = total;
 }
+
+function clearCart() {
+    localStorage.clear();
+    updateCart();
+
+}
+
+document.addEventListener("DOMContentLoaded", function (event) {
+    updateCart();
+});
