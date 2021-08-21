@@ -155,8 +155,12 @@ I wanted to make first-time user see what this website is about without reading 
  * For responsiveness across all devices the website [AmIResponsive](http://ami.responsivedesign.is/) is used. And result is.
   ![Amiresponsive result](tests/amiresponsive.png)
 
-* For Html validation W3 Validator was used, click link to see result. [W3 Html validator](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-dd61392f-e80b-4db4-a829-cf89f148345b.ws-eu03.gitpod.io%2Findex.html).
+* For Html validation W3 Validator was used, click link to see result. 
+![Html validator page 1](assets/imgs/indexhtmlv.png)
+![Html validator page 2](assets/imgs/contacthtmlv.png)
+![Html validator page 3](assets/imgs/formhtmlv.png)
 * Css validator was used to validate css, click link to see result. [W3 Css validator](https://jigsaw.w3.org/css-validator/validator)
+![Css validator](assets/imgs/cssv.png)
 * and for Javascript, Javascript validator is used [W3 javaScript validator](https://beautifytools.com/javascript-validator.php)
   ![JS page one](tests/jsmain.png)
   ![Js page googlemaps result](tests/jsmap.png)
