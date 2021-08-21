@@ -44,14 +44,14 @@ let productsRow = document.querySelector('#products-row');
 
 // for loop to render the products on webpage
 for (let i = 0; i < products.length; i++) {
-    productsRow.innerHTML += `
-      <div class="col-md-4">
+    productsRow.innerHTML += ` 
+    <div class="col-md-4">
         <div class="card border justify-content-center ipad" style="width: 100%">
-            <img
+                <img
                 class="card-img-top"
                 style="height: 15rem"
                 src="${products[i].image}"
-                alt="Card image cap"/>
+                alt="Card image cap"/> 
             <div class="card-body">
                 <h2>${products[i].name}</h2>
                     <p class="card-text">${products[i].description}</p>
@@ -60,9 +60,8 @@ for (let i = 0; i < products.length; i++) {
             <div class="card-body">
                 <a onclick="addToCart(this, ${i})" class="card-link">Add to Cart</a>
             </div>
-         </div>
-      </div>
-    `
+        </div>
+    </div>`
 };
 
 // add to cart function to add products to cart// with a text shown for two seconds so user has responce 
