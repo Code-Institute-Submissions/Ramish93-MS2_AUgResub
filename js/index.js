@@ -47,22 +47,20 @@ for (let i = 0; i < products.length; i++) {
     productsRow.innerHTML += `
       <div class="col-md-4">
         <div class="card border justify-content-center ipad" style="width: 100%">
-                        <img
-                            class="card-img-top"
-                            style="height: 15rem"
-                            src="${products[i].image}"
-                            alt="Card image cap"
-                        />
-                        <div class="card-body">
-                            <h2>${products[i].name}</h2>
-                            <p class="card-text">${products[i].description}</p>
-                            <h5>Price: ${products[i].price} $</h5>
-
-                        </div>
-                        <div class="card-body">
-                            <a onclick="addToCart(this, ${i})" class="card-link">Add to Cart</a>
-                        </div>
-                    </div>
+            <img
+                class="card-img-top"
+                style="height: 15rem"
+                src="${products[i].image}"
+                alt="Card image cap"/>
+            <div class="card-body">
+                <h2>${products[i].name}</h2>
+                    <p class="card-text">${products[i].description}</p>
+                <h5>Price: ${products[i].price} $</h5>
+            </div>
+            <div class="card-body">
+                <a onclick="addToCart(this, ${i})" class="card-link">Add to Cart</a>
+            </div>
+         </div>
       </div>
     `;
 }
@@ -72,29 +70,52 @@ for (let i = 0; i < products.length; i++) {
 let user = [{
         name: 'John Shan',
         comment: 'Beautiful Sun-brown sunglasses for an elegent summer',
+        image: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
         media: 'Facebook'
     },
     {
         name: 'Joe Slevin',
         comment: "The most amazing experience that i've ever had with a custom made thing",
+        image: 'https://images.unsplash.com/photo-1484515991647-c5760fcecfc7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Z3V5fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80',
+
         media: 'Twitter'
     },
     {
         name: 'Allison Dsuza',
         comment: "I'm totally in love with my new look.",
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGyjaasIFDAnXEWyfVmoXpV1-bgPsTfHxonQ&usqp=CAU',
         media: 'Instagram'
     },
     {
         name: 'Craig Strongman',
         comment: 'OMG! toatally loving them. they were a littel late but worth it',
+        image: 'https://thumbs.dreamstime.com/b/judgement-young-guy-college-student-show-thumbs-up-thumb-down-average-rate-making-decision-like-dislike-standing-over-white-223076359.jpg',
         media: 'Facebook'
     }
 ]
 
-let users = document.querySelector('#user-row')
+let users = document.querySelector('#userRow')
 
-for (let i = 0; i < users.length; i++) {
-    user - row
+for (let i = 0; i < user.length; i++) {
+    users.innerHTML += `
+        <div class="col-md-6 col-sm-8">
+            <div class="d-block">
+                <div class="media">
+                    <div class="d-none d-sm-block">
+                        <img src="${user[i].image}" alt="image of a person" class="rounded-circle mr-3" height=80
+                        width=80>
+                    </div>
+                    <div class="media-body">
+                        <div class="feedback">
+                            <p>${user[i].comment}</p>
+                            <footer>${user[i].name} on <strong title="${user[i].media}"> <em> ${user[i].media}
+                                    </em></strong>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>`
 }
 
 // add to cart function to add products to cart// with a text shown for two seconds so user has responce 

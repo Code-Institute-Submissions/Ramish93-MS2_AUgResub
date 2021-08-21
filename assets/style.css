@@ -47,6 +47,10 @@ div#map {
     letter-spacing: 0.9rem;
 }
 
+.margin {
+    margin: 30rem, 0.5rem;
+}
+
 .icons a {
     font-size: 3.7em;
     word-spacing: 1.3em;
