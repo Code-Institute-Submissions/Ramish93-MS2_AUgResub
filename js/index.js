@@ -67,6 +67,36 @@ for (let i = 0; i < products.length; i++) {
     `;
 }
 
+// details of the userexperince that will render on webpage
+
+let user = [{
+        name: 'John Shan',
+        comment: 'Beautiful Sun-brown sunglasses for an elegent summer',
+        media: 'Facebook'
+    },
+    {
+        name: 'Joe Slevin',
+        comment: "The most amazing experience that i've ever had with a custom made thing",
+        media: 'Twitter'
+    },
+    {
+        name: 'Allison Dsuza',
+        comment: "I'm totally in love with my new look.",
+        media: 'Instagram'
+    },
+    {
+        name: 'Craig Strongman',
+        comment: 'OMG! toatally loving them. they were a littel late but worth it',
+        media: 'Facebook'
+    }
+]
+
+let users = document.querySelector('#user-row')
+
+for (let i = 0; i < users.length; i++) {
+    user - row
+}
+
 // add to cart function to add products to cart// with a text shown for two seconds so user has responce 
 function addToCart(e, index) {
     e.innerHTML = "You're product is added"
