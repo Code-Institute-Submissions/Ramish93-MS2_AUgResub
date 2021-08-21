@@ -39,15 +39,12 @@ let products = [{
 
 // variable defined for local browser storage and html page
 let cartProducts = JSON.parse(localStorage.getItem("cartProduct")) || [];
-
+let productsRow = document.querySelector('#products-row');
 
 
 // for loop to render the products on webpage
 for (let i = 0; i < products.length; i++) {
-    if (document.getElementById("status") != null) {
-        var productsRow = document.querySelector('#products-row');
-
-        productsRow.innerHTML += `
+    productsRow.innerHTML += `
       <div class="col-md-4">
         <div class="card border justify-content-center ipad" style="width: 100%">
             <img
@@ -65,8 +62,7 @@ for (let i = 0; i < products.length; i++) {
             </div>
          </div>
       </div>
-    `;
-    }
+    `
 };
 
 // add to cart function to add products to cart// with a text shown for two seconds so user has responce 

@@ -53,11 +53,7 @@
                     </li>
                 </ul>
             </div>
-            <div style="position: relative">
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#cartModal">
-                    <i class="fas fa-cart-arrow-down"></i>
-                </button>
-            </div>
+
         </nav>
     </header>
     <!-- Hero image of website. -->
@@ -145,32 +141,7 @@
             </div>
         </div>
     </section>
-    <!--modal from bootstrap, added custom text area,id and classes-->
-    <div class="modal" id="cartModal">
-        <div class="modal-dialog">
-            <div class="modal-content">
 
-                <!-- Modal Header -->
-                <div class="modal-header">
-                    <h5 class="modal-title">Cart</h5>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                </div>
-
-                <!-- Modal body -->
-                <div class="modal-body">
-                    <div id="cart-products"></div>
-                </div>
-
-                <!-- Modal footer -->
-                <div class="modal-footer">
-                    <h5>Total price $: <span id="total">0</span></h5>
-                    <button type=" button" class="btn btn-outline-danger btn-sm" onClick="clearCart()">Clear
-                        All</button>
-                </div>
-
-            </div>
-        </div>
-    </div>
     <script>
         $("#contact-form").submit(function (e) {
             e.preventDefault();
