@@ -163,8 +163,12 @@ I wanted to make first-time user see what this website is about without reading 
   ![Js emailJs result](tests/jscontact.png)
 
 ### Wireframes:
-- Landing Page:
- ![Wireframe of pages](wireframe/wireframe.png)
+- website on desktop:
+ ![Wireframe on Desktop](assets/imgs/desktopwire.png)
+ - website on Tablet:
+ ![Wireframe on Tablet](assets/imgs/tabletwire.png)
+- website on Mobile:
+ ![Wireframe on Mobile](assets/imgs/mobilewire.png)
 
 
 ___
